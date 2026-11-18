@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nil in Spades: How Bidding Zero Is Scored, and When to Try It</title>
+<meta name="description" content="A nil bid in Spades scores +100 if you take no tricks and -100 if you take any. How it combines with your partner&#x27;s bid, bags, and when nil is worth it.">
+<link rel="canonical" href="https://faaisall.github.io/card-crew-site/en/spades-nil-bid-scoring/">
+<meta name="apple-itunes-app" content="app-id=6829352908">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Nil in Spades: How Bidding Zero Is Scored, and When to Try It">
+<meta property="og:description" content="A nil bid in Spades scores +100 if you take no tricks and -100 if you take any. How it combines with your partner&#x27;s bid, bags, and when nil is worth it.">
+<meta property="og:url" content="https://faaisall.github.io/card-crew-site/en/spades-nil-bid-scoring/">
+<meta property="og:image" content="https://faaisall.github.io/card-crew-site/icon.png">
+<link rel="icon" href="https://faaisall.github.io/card-crew-site/icon.png">
+<style>
+:root{--felt:#0F1830;--paper:#FBFAF6;--gold:#F2B33D;--red:#E5484D;--ink:#151B2C;--muted:#5b6275;--line:#e6e2d6}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI","IBM Plex Sans Arabic",Tahoma,sans-serif}
+a{color:#1d4ed8}
+header{background:var(--felt);color:#fff}
+header .in,main,footer .in{max-width:760px;margin:0 auto;padding:0 18px}
+header .in{display:flex;align-items:center;gap:12px;padding-top:14px;padding-bottom:14px}
+header img{width:40px;height:40px;border-radius:10px}
+header a{color:#fff;text-decoration:none;font-weight:700}
+header nav{margin-inline-start:auto;display:flex;gap:14px;font-size:15px}
+header nav a{font-weight:500;opacity:.85}
+h1{font-size:30px;line-height:1.25;margin:28px 0 8px}
+h2{font-size:22px;margin:30px 0 8px}
+h3{font-size:18px;margin:20px 0 4px}
+.meta{color:var(--muted);font-size:14px;margin-bottom:18px}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:16px;display:block;overflow-x:auto}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:start;vertical-align:top}
+th{background:#f1eee4}
+.cta{display:block;margin:34px 0;padding:20px;border-radius:16px;background:var(--felt);color:#fff;text-decoration:none}
+.cta b{display:block;font-size:19px;color:var(--gold)}
+.cta span{opacity:.9;font-size:15px}
+.cards{list-style:none;padding:0;display:grid;gap:12px}
+.cards a{display:block;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:#fff;text-decoration:none;color:var(--ink)}
+.cards a b{display:block}
+.cards a span{color:var(--muted);font-size:15px}
+.hero{background:var(--felt);color:#fff;padding:36px 0 40px}
+.hero h1{margin-top:0}
+.hero p{opacity:.9;max-width:600px}
+.btn{display:inline-block;background:var(--gold);color:var(--ink);padding:12px 20px;border-radius:12px;font-weight:700;text-decoration:none}
+footer{border-top:1px solid var(--line);margin-top:40px;color:var(--muted);font-size:14px}
+footer .in{padding-top:18px;padding-bottom:30px;display:flex;gap:16px;flex-wrap:wrap}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Nil in Spades: How Bidding Zero Is Scored, and When to Try It","description":"A nil bid in Spades scores +100 if you take no tricks and -100 if you take any. How it combines with your partner's bid, bags, and when nil is worth it.","datePublished":"2026-11-18","dateModified":"2026-11-18","inLanguage":"en","author":{"@type":"Organization","name":"Card Crew"},"mainEntityOfPage":"https://faaisall.github.io/card-crew-site/en/spades-nil-bid-scoring/"}</script>
+</head>
+<body>
+<header><div class="in"><img src="https://faaisall.github.io/card-crew-site/icon.png" alt=""><a href="https://faaisall.github.io/card-crew-site/">Card Crew</a>
+<nav><a href="https://faaisall.github.io/card-crew-site/">EN</a><a href="https://faaisall.github.io/card-crew-site/fr/">FR</a><a href="https://faaisall.github.io/card-crew-site/ar/">عربي</a></nav></div></header>
+<main>
+<h1>Nil in Spades: How Bidding Zero Is Scored, and When to Try It</h1>
+<div class="meta">Updated: 2026-11-18</div>
+<p><strong>Short answer:</strong> bidding <strong>nil</strong> in Spades means you promise to take <strong>zero tricks</strong>. If you take none, your team scores <strong>+100</strong>. If you take even one, your team loses <strong>100</strong>. Your partner's bid is scored separately as normal, and any tricks you take while failing nil don't help your partner; they count as bags for your team. A <strong>blind nil</strong>, bid before looking at your cards, is worth <strong>+200 or −200</strong>.</p>
+
+<h2>How a nil is scored, step by step</h2>
+<p>When one player on a team bids nil, the team really has two separate contracts in the same hand:</p>
+<ol>
+  <li><strong>The nil:</strong> +100 if the nil player took 0 tricks, −100 if they took 1 or more.</li>
+  <li><strong>The partner's bid:</strong> scored on the partner's tricks only. Made: 10 points per trick bid plus 1 per extra trick (a bag). Missed: −10 per trick bid.</li>
+  <li><strong>Bags:</strong> the partner's extra tricks are bags, and so is every trick the nil player took. Each time a team reaches 10 bags, it loses 100 points.</li>
+</ol>
+<p>Add the parts together and that's the team's score for the hand. A team can make one part and fail the other: the nil can succeed while the partner gets set, or the other way round.</p>
+
+<table>
+  <tr><th>Bid</th><th>Nil player takes 0 tricks</th><th>Nil player takes 1+ tricks</th></tr>
+  <tr><td>Nil</td><td>+100</td><td>−100</td></tr>
+  <tr><td>Blind nil</td><td>+200</td><td>−200</td></tr>
+</table>
+
+<h2>Worked example</h2>
+<p>Before the hand, your team has <strong>230 points and 7 bags</strong>. The other team has <strong>310 points and 2 bags</strong>. You bid <strong>nil</strong> and your partner bids <strong>5</strong>. The opponents bid 4 and 3, so their contract is 7.</p>
+
+<h3>If your nil works</h3>
+<p>You take 0 tricks. Your partner takes 6, and the opponents take the other 7.</p>
+<ul>
+  <li>Nil made: <strong>+100</strong></li>
+  <li>Partner bid 5, took 6: 5 × 10 + 1 = <strong>+51</strong>, and 1 bag (7 + 1 = 8 bags, no penalty yet)</li>
+  <li>Your team this hand: 100 + 51 = <strong>+151</strong>, new score 230 + 151 = <strong>381</strong></li>
+  <li>Opponents bid 7, took 7: <strong>+70</strong>, new score 310 + 70 = <strong>380</strong></li>
+</ul>
+
+<h3>If your nil fails</h3>
+<p>Now say you get stuck with <strong>3 tricks</strong>, your partner takes exactly 5, and the opponents take only 5.</p>
+<ul>
+  <li>Nil failed: <strong>−100</strong></li>
+  <li>Partner bid 5, took 5: <strong>+50</strong></li>
+  <li>Your 3 tricks become bags: 7 + 3 = 10 bags, so the bag penalty hits: <strong>−100</strong>, and your bag count goes back to 0</li>
+  <li>Your team this hand: −100 + 50 − 100 = <strong>−150</strong>, new score 230 − 150 = <strong>80</strong></li>
+  <li>Opponents bid 7, took 5: set, <strong>−70</strong>, new score 310 − 70 = <strong>240</strong></li>
+</ul>
+<p>The same hand is a 301-point swing for your team depending on whether you duck every trick. That's why nil is exciting, and why it shouldn't be bid lightly.</p>
+
+<h2>When is nil worth bidding?</h2>
+<ul>
+  <li><strong>Few or low spades.</strong> Spades are trump, so a hand with the ace or king of spades, or four or more spades, is risky: you may be forced to win a trick.</li>
+  <li><strong>Low cards in every suit.</strong> 2s, 3s and 4s are your friends. A lone ace or king in a side suit is the classic way a nil dies.</li>
+  <li><strong>Short suits help.</strong> If you run out of a suit early, you can throw away dangerous high cards when that suit is led.</li>
+  <li><strong>A strong partner.</strong> Your partner's job is to "cover" you: play high on suits you're weak in so you can play low under them. A partner with a lot of high cards makes your nil much safer.</li>
+  <li><strong>The score matters.</strong> Behind late in the game, a nil can catch up quickly. Ahead and near 500, a failed nil can hand the game away.</li>
+</ul>
+
+<h2>House rules to agree on first</h2>
+<p>Nil is one of the most varied parts of Spades, so settle these before the first deal:</p>
+<ul>
+  <li><strong>Value:</strong> most games use 100 for nil and 200 for blind nil, but some use 50.</li>
+  <li><strong>Blind nil limits:</strong> many tables only allow blind nil when a team is behind by 100 points or more, and some let the partners swap one or two cards afterwards.</li>
+  <li><strong>Failed-nil tricks:</strong> in standard scoring (and in Card Crew) they count as bags but don't help the partner make their bid. Some tables let them count toward the partner's bid instead.</li>
+  <li><strong>Both partners nil:</strong> allowed in most games, each nil scored on its own. Some tables ban it.</li>
+</ul>
+
+<h2>Common questions</h2>
+<h3>Does a nil count as a bid of zero for the team's contract?</h3>
+<p>No. The team's contract is just the partner's bid. The nil is a separate +100/−100 bonus on top.</p>
+<h3>If my nil fails, do my tricks give points?</h3>
+<p>No points, only bags. In the example above, your 3 tricks scored nothing but pushed your team to 10 bags and the −100 penalty.</p>
+<h3>Can the opponents try to break my nil?</h3>
+<p>Yes, and they usually will. Leading low cards in a suit where they think you're stuck with a high one is their best way to force a trick on you.</p>
+<h3>What if both teams bid nil?</h3>
+<p>Each nil is scored for its own team. It doesn't change anything else.</p>
+
+<p><strong>Card Crew</strong> scores nil and blind nil for you: enter each player's bid and tricks, and it works out the bags and penalties and keeps the running total to 500.</p>
+<a class="cta" href="https://apps.apple.com/app/id6829352908"><b>Get Card Crew on the App Store</b><span>Free score keeper for Spades, Euchre, Belote, Coinche and Baloot, with a voice that announces the score.</span></a>
+<h2>More guides</h2>
+<ul class="cards"><li><a href="https://faaisall.github.io/card-crew-site/ar/aldabal-walqahwa-albaloot/"><b>الدبل والثري والفور والقهوة في البلوت: كيف تنحسب</b><span>كم يصير الدبل في البلوت؟ شرح حساب الدبل والثري والفور والقهوة في الصن والحكم، ومين ياخذ النقاط، ووش يصير للمشاريع، مع أمثلة محسوبة.</span></a></li><li><a href="https://faaisall.github.io/card-crew-site/fr/coinche-et-surcoinche-points/"><b>Coinche et surcoinche : combien de points ça rapporte ?</b><span>À la belote coinchée, la coinche double la valeur du contrat et la surcoinche la multiplie par 4. Qui peut coincher, et calcul avec exemples.</span></a></li><li><a href="https://faaisall.github.io/card-crew-site/en/euchre-left-bower-right-bower/"><b>Left Bower and Right Bower in Euchre: Which Jacks Are Trump?</b><span>The right bower is the jack of trump, the left bower is the other jack of the same colour. How they rank, which suit the left bower belongs to, with an example.</span></a></li><li><a href="https://faaisall.github.io/card-crew-site/ar/mashari-albaloot/"><b>مشاريع البلوت: السرا والخمسين والمية والأربعمية والبلوت وكم تحسب</b><span>شرح مشاريع البلوت: وش أوراق السرا والخمسين والمية والأربعمية والبلوت، وكم نقطة كل واحد في الصن والحكم، ومين ياخذها إذا الفريقين عندهم مشاريع.</span></a></li><li><a href="https://faaisall.github.io/card-crew-site/ar/tariqat-hisab-albaloot/"><b>طريقة حساب البلوت: الصن والحكم والمشاريع والقلبة والكبوت</b><span>شرح حساب نقاط البلوت ببساطة: كم نقطة في الصن والحكم، والمشاريع، والقلبة، والكبوت، والدبل والقهوة، مع مثال. الصكة لين 152.</span></a></li><li><a href="https://faaisall.github.io/card-crew-site/en/euchre-scoring-rules/"><b>Euchre Scoring Rules: Points for Makers, Marches, Loners and Euchres</b><span>How Euchre is scored: 1 point for 3 or 4 tricks, 2 for a march, 4 for a loner march, 2 for euchring the makers. Game to 10.</span></a></li></ul>
+</main>
+<footer><div class="in"><a href="https://apps.apple.com/app/id6829352908">App Store</a><a href="https://card-crew.expo.app/privacy/">Privacy</a><a href="https://card-crew.expo.app/support/">Support</a><span>© 2026 Card Crew</span></div></footer>
+</body>
+</html>
